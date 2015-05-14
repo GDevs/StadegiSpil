@@ -3,6 +3,7 @@
 
 BuiltEntity::BuiltEntity()
 {
+	owner = 0;
 }
 
 

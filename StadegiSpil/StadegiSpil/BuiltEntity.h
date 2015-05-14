@@ -7,5 +7,9 @@ public:
 	BuiltEntity();
 	~BuiltEntity();
 
+	int getOwner(){ return owner; };
+	void setOwner(int pOwner){ owner = pOwner; };
+private:
+	int owner;
 };
 
