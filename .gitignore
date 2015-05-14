@@ -26,3 +26,6 @@
 *.exe
 *.out
 *.app
+StadegiSpil/StadegiSpil/Debug/
+*.opensdf
+*.sdf
