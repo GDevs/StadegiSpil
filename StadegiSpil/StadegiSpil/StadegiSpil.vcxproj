@@ -64,12 +64,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="BuiltEntity.h" />
     <ClInclude Include="Entity.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="BuiltEntity.cpp" />
     <ClCompile Include="Entity.cpp" />
     <ClCompile Include="prototype.cpp" />
   </ItemGroup>
