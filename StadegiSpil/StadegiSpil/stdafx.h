@@ -12,8 +12,6 @@
 
 #include <iostream>
 
-#include "Entity.h"
-#include "BuiltEntity.h"
 
 
 // TODO: reference additional headers your program requires here

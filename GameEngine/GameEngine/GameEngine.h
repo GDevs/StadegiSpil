@@ -1,5 +1,12 @@
-#pragma once
-class Entity
+//Headrerfile fuer die Dll, wird in der dll eingebunden, und in programmen, die die dll nutzen
+#ifdef GAMEENGINE_EXPORTS
+#define GAMEENGINEAPI __declspec(dllexport)
+#else
+#define GAMEENIGINEAPI __declspec(dllimport)
+#endif
+
+//Abstract class entity
+class GAMEENGINEAPI Entity
 {
 public:
 	Entity();
@@ -24,3 +31,17 @@ private:
 	double damage;
 };
 
+
+//Abstract class BuiltEntity
+class GAMEENGINEAPI BuiltEntity :
+	public Entity
+{
+public:
+	BuiltEntity();
+	~BuiltEntity();
+
+	int getOwner(){ return owner; };
+	void setOwner(int pOwner){ owner = pOwner; };
+private:
+	int owner;
+};

@@ -29,3 +29,5 @@
 StadegiSpil/StadegiSpil/Debug/
 *.opensdf
 *.sdf
+GameEngine/GameEngine/Debug/
+*.ipch
