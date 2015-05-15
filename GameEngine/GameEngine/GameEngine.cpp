@@ -8,9 +8,9 @@
 
 Entity::Entity()
 {
-	x = 0;
-	y = 0;
-	z = 0;
+	position.x = 0;
+	position.y = 0;
+	position.z = 0;
 	damage = 0;
 }
 
